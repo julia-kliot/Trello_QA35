@@ -12,13 +12,14 @@ import java.time.Duration;
 public class Login {
     WebDriver wd;
 
-    @BeforeTest
-    public void preConditions() {
-        if (isLogged()) {
-            logOut();
-        }
+  //
+    // @BeforeTest
+   // public void preConditions() {
+        //if (isLogged()) {
+            //logOut();
+     //  }
 
-    }
+    //}
 
     @Test
     public void loginPositive() {
