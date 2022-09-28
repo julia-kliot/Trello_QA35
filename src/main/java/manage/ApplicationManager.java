@@ -17,8 +17,11 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://trello.com/");
 
+
         user=new UserHelper(wd);
         board=new BoardHelper(wd);
+
+        user.login("juliakliot.jk@gmail.com","misha240613");
 
     }
 

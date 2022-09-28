@@ -35,4 +35,15 @@ public class UserHelper extends HelperBase {
     public void submitLogin() {
         click(By.cssSelector("#login-submit"));
     }
+
+    public void login(String email, String password){
+        click(By.cssSelector("[href='/login']"));
+        type(By.cssSelector("#user"), email);
+        click(By.cssSelector("#login"));
+        pause(5000);
+        type(By.cssSelector("#password"), password);
+        click(By.cssSelector("#login-submit"));
+
+
+    }
 }
