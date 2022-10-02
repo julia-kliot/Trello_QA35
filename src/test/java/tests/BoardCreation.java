@@ -6,9 +6,11 @@ import org.testng.annotations.Test;
 
 public class BoardCreation extends TestBase {
 
+
     @Test
     public void boardCreation1() {
-        Board board = new Board().withTitle("QA35");
+       // Board board = new Board().withTitle("QA35");
+        Board board = Board.builder().title("QA35").build();
 
         int boardCountBeforeCreation = app.getBoard().getBoardCount();
 
