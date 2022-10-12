@@ -45,4 +45,34 @@ public class BoardHelper extends HelperBase{
     public int recentlyViewedBoards(){
         return wd.findElements(By.xpath("//*[contains(@class,'icon-clock')]/../..//div")).size();
     }
+
+    public void clickOnTheFirstBoard() {
+        click(By.cssSelector(".board-tile-details"));
+    }
+
+    public void openSideBoardMenu() {
+        click(By.cssSelector(".show-sidebar-button-react-root"));
+    }
+
+    public void openMore() {
+        click(By.cssSelector(".js-open-more"));
+    }
+
+    public void closeBoard() {
+        click(By.cssSelector(".js-close-board"));
+        click(By.cssSelector(".js-confirm"));
+    }
+
+    public void deleteBoard() {
+        click(By.cssSelector("[data-test-id='close-board-delete-board-button']"));
+        click(By.cssSelector("[data-test-id='close-board-delete-board-confirm-button']"));
+    }
+
+    public void openBoard() {
+        click(By.cssSelector("[data-test-id='workspace-chooser-trigger-button']"));
+    }
+
+    public void openBoardAgain() {
+        click(By.cssSelector(".JIXQq8gDYY04N6"));
+    }
 }

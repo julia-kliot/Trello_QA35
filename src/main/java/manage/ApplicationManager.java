@@ -2,10 +2,14 @@ package manage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.ILoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
 
 public class ApplicationManager {
+    Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     WebDriver wd;
 
     UserHelper user;
@@ -13,6 +17,7 @@ public class ApplicationManager {
 
     public void init(){
         wd = new ChromeDriver();
+        logger.info("Test starts---");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://trello.com/");

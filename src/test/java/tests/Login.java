@@ -22,12 +22,14 @@ public class Login extends TestBase {
     public void loginPositive1() {
        // User user = new User().withEmail("juliakliot.jk@gmail.com").withPassword("misha240613");
         User user= User.builder().email("juliakliot.jk@gmail.com").password("misha240613").build();
+        logger.info("Test login positive 1"+user.getEmail()+ "" +user.getPassword());
 
         app.getUser().initLogin();
         app.getUser().pause(2000);
         app.getUser().fillLoginForm(user);
         app.getUser().submitLogin();
         app.getUser().pause(2000);
+        logger.info("Logged---");
 
 
         Assert.assertTrue(app.getUser().isLogged());
