@@ -14,6 +14,8 @@ public class ApplicationManager {
 
     UserHelper user;
     BoardHelper board;
+    CardHelper card;
+    ListHelper list;
 
     public void init(){
         wd = new ChromeDriver();
@@ -24,6 +26,8 @@ public class ApplicationManager {
 
         user=new UserHelper(wd);
         board=new BoardHelper(wd);
+        list = new ListHelper(wd);
+        card= new CardHelper(wd);
 
         user.login("juliakliot.jk@gmail.com","misha240613");
 
@@ -40,5 +44,13 @@ public class ApplicationManager {
 
     public BoardHelper getBoard() {
         return board;
+    }
+
+    public CardHelper getCard() {
+        return card;
+    }
+
+    public ListHelper getList() {
+        return list;
     }
 }

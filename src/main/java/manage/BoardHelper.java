@@ -75,4 +75,26 @@ public class BoardHelper extends HelperBase{
     public void openBoardAgain() {
         click(By.cssSelector(".JIXQq8gDYY04N6"));
     }
+    public boolean isCreated() {
+        return wd.findElements(By.cssSelector(".list-name-input")).size()>0;
+
+    }
+    public void statrBoardCreation() {
+        click(By.cssSelector("[data-test-id='create-board-tile']"));
+    }
+    public void chooseBackground() {
+        click(By.cssSelector("[aria-label='CheckIcon']"));
+    }
+    public void closecreationWindow() {
+        click(By.cssSelector("[data-test-id='popover-close']"));
+    }
+    public void createBoard() {
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+    }
+    public void closecreationWindow2() {
+        click(By.cssSelector("[data-test-id='popover-close']"));
+    }
+    public void retutnToCreationPage() {
+        click(By.cssSelector("._0F1JkilrBuDsnA"));
+    }
 }
