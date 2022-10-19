@@ -7,9 +7,9 @@ public class CardCreation extends TestBase {
 
     @Test
     public void cardCreation() {
-        Card card = Card.builder().cardName("test1").color("green").build();
+        Card card = Card.builder().cardName("new test QA35").color("green").build();
         app.getBoard().clickOnTheFirstBoard();
-        app.getList().createList("test11");
+        app.getList().createList("testqa35");
         app.getCard().initCardCreation();
         app.getCard().fillCreationForm(card);
         app.getCard().submitCardCreation();

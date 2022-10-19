@@ -34,8 +34,8 @@ public class ApplicationManager {
     }
 
     public void quit(){
-        wd.close();
-        wd.quit();
+       // wd.close();
+       // wd.quit();
     }
 
     public UserHelper getUser() {
@@ -52,5 +52,8 @@ public class ApplicationManager {
 
     public ListHelper getList() {
         return list;
+    }
+    public String getUrl(){
+        return wd.getCurrentUrl();
     }
 }
