@@ -55,12 +55,19 @@ public class UserHelper extends HelperBase {
     }
 
     public void openUserProfile() {
-        click(By.cssSelector("[data-test-id='data-test-id']"));
+        click(By.cssSelector("[data-test-id='header-member-menu-profile']"));
     }
 
     public void goToAtlassianAccount() {
         click(By.cssSelector("[href$='manage-profile']"));
         List<String> tabs = new ArrayList<>(wd.getWindowHandles());
-        wd.switchTo().window((tabs.get(1)));
+      //  wd.switchTo().window((tabs.get(1)));
+        wd.switchTo().window(tabs.get(tabs.size()-1));
+    }
+
+    public void returnToTrello() {
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window((tabs.get(0)));
+
     }
 }
