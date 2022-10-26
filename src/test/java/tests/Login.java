@@ -36,7 +36,7 @@ public class Login extends TestBase {
 
     }
 
-   @Test
+   @Test(enabled = false)
     public void loginPositive2() {
 
         app.getUser().initLogin();

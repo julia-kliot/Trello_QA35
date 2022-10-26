@@ -22,6 +22,7 @@ public class UserModification extends TestBase {
 
         app.getAtlassian().initChangePhoto();
         app.getAtlassian().uploadPhoto("C:/Users/julia/Documents/QA/QA_Automation/QA/Trello_QA35/src/test/resources/shi-ttsu-sobaka-960x540.jpg");
+        app.getUser().pause(5000);
         app.getUser().returnToTrello();
 
         Assert.assertTrue(app.getUrl().contains("https://trello.com/"));

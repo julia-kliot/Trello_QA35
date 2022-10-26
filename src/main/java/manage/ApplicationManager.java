@@ -2,6 +2,8 @@ package manage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 import org.slf4j.ILoggerFactory;
@@ -19,12 +21,23 @@ public class ApplicationManager {
     CardHelper card;
     ListHelper list;
     AtlassianHelper atlassian;
+    String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void init(){
+        if(browser.equals(Browser.CHROME.browserName())){
+            wd = new ChromeDriver();
+            logger.info("Tests start in ChromeDriver--");
+        }else if (browser.equals(Browser.EDGE.browserName())){
+            wd= new EdgeDriver();
+            logger.info("Tests start in EdgeDriver--");
+        }
         WebDriverListener listener= new MyListener();
-        wd = new ChromeDriver();
-        logger.info("Test starts---");
         wd = new EventFiringDecorator<>(listener).decorate(wd);
+        logger.info("Test starts---");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://trello.com/");
