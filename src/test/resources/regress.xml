@@ -2,7 +2,7 @@
 <suite name="log">
     <test name="log">
         <classes>
-
+            <class name="tests.Login"/>
             <class name="tests.CardCreation"/>
 
 

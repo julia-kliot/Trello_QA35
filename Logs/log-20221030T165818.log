@@ -1,0 +1,73 @@
+16:58:18  DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\julia\Documents\QA\QA_Automation\QA\Trello_QA35\src\test\resources\card.xml"
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 2045031788
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:null] 2136378353
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.preConditions()[pri:0, instance:null] 1481656486
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] -68692127
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.finishLog()[pri:0, instance:null] 1549693568
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 2045031788
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:null] 2136378353
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] -68692127
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.finishLog()[pri:0, instance:null] 1549693568
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:tests.Login@70f77ab3] 866742983
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.preConditions()[pri:0, instance:tests.Login@70f77ab3] 581977805
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Login.loginPositive1()[pri:0, instance:tests.Login@70f77ab3] 1627001345
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CardCreation.cardCreation(model.Card)[pri:0, instance:tests.CardCreation@16dc8e72] 1552472512
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:tests.Login@70f77ab3] -596480798
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+16:58:18  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+16:58:18  INFO  tests.TestBase - Start tests---loginPositive1
+16:58:18  INFO  tests.TestBase - ****************************************************************************************
+16:58:18  INFO  tests.TestBase - Start tests---cardCreation
+16:58:18  INFO  tests.TestBase - ****************************************************************************************
+16:58:18  INFO  tests.TestBase - Start tests---cardCreation
+16:58:18  INFO  tests.TestBase - ****************************************************************************************

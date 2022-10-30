@@ -30,7 +30,7 @@ public class BoardCreation extends TestBase {
         Assert.assertEquals(boardCountAfterCreation, boardCountBeforeCreation + 1);
     }
 
-    @Test
+    @Test(groups = "group")
     public void boardCreation2() {
         Board board = Board.builder().title("testQa34").build();
         logger.info("Test board creation 1" + board.getTitle());
@@ -44,8 +44,8 @@ public class BoardCreation extends TestBase {
         app.getBoard().pause(2000);
         app.getBoard().isCreated();
         logger.info("Board is created---");
-
-        Assert.assertTrue(app.getBoard().isCreated());
+        app.getBoard().returnToHomePage();
+        //Assert.assertTrue(app.getBoard().isCreated());
     }
 
     @Test
@@ -83,7 +83,7 @@ public class BoardCreation extends TestBase {
     }
 
 
-    @Test
+    @Test(groups = "groupneg")
     public void refuseBoardCreation1() {
         int boardCountBefore = app.getBoard().getBoardCount();
         app.getBoard().statrBoardCreation();
@@ -93,7 +93,7 @@ public class BoardCreation extends TestBase {
     }
 
 
-    @Test
+    @Test(groups = "groupneg")
     public void refuseboardCreation2() {
         int boardCountBefore = app.getBoard().getBoardCount();
         app.getBoard().createBoard();
@@ -104,7 +104,7 @@ public class BoardCreation extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = "groupneg")
     public void refuseboardCreation3() {
         int boardCountBefore = app.getBoard().getBoardCount();
         app.getBoard().initBoardCreation();
