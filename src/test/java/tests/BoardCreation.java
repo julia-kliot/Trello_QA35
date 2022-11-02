@@ -43,9 +43,12 @@ public class BoardCreation extends TestBase {
         app.getBoard().submitBoardCreation();
         app.getBoard().pause(2000);
         app.getBoard().isCreated();
+
+        Assert.assertTrue(app.getBoard().isCreated());
         logger.info("Board is created---");
+        app.getBoard().pause(2000);
         app.getBoard().returnToHomePage();
-        //Assert.assertTrue(app.getBoard().isCreated());
+
     }
 
     @Test

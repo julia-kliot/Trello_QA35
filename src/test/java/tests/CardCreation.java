@@ -16,9 +16,10 @@ public class CardCreation extends TestBase {
         app.getCard().submitCardCreation();
         app.getBoard().returnToHomePage();
     }
-    @Test(groups = "group")
-    public void cardCreation2(Card card) {
-        // Card card = Card.builder().cardName("new test QA35").color("green").build();
+    @Test (enabled = false)
+    public void cardCreation2( Card card) {
+
+      // Card card = Card.builder().cardName("new test QA35").color("green").build();
         app.getBoard().clickOnTheFirstBoard();
         app.getList().createList("testqa35");
         app.getCard().initCardCreation();

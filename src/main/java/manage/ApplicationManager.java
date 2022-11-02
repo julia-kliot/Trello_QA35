@@ -32,11 +32,12 @@ public class ApplicationManager {
             wd = new ChromeDriver();
             logger.info("Tests start in ChromeDriver--");
         }else if (browser.equals(Browser.EDGE.browserName())){
-            wd= new EdgeDriver();
+            wd = new EdgeDriver();
             logger.info("Tests start in EdgeDriver--");
         }
         WebDriverListener listener= new MyListener();
         wd = new EventFiringDecorator<>(listener).decorate(wd);
+
         logger.info("Test starts---");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

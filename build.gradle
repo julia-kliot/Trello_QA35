@@ -40,6 +40,7 @@ task log(type: Test) {
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
+
     }
     task group(type: Test){
         useTestNG {

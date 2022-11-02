@@ -1,0 +1,40 @@
+17:03:01  DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\julia\Documents\QA\QA_Automation\QA\Trello_QA35\src\test\resources\card.xml"
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] 2045031788
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:null] 2136378353
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startLogger(java.lang.reflect.Method)[pri:0, instance:null] -68692127
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.finishLog()[pri:0, instance:null] 1549693568
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:tests.CardCreation@4b53c1c6] 235256282
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CardCreation.cardCreation(model.Card)[pri:0, instance:tests.CardCreation@4b53c1c6] -1862267628
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stop()[pri:0, instance:tests.CardCreation@4b53c1c6] -1227967499
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:03:01  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:03:01  INFO  tests.TestBase - Start tests---cardCreation
+17:03:01  INFO  tests.TestBase - ****************************************************************************************
+17:03:01  INFO  tests.TestBase - Start tests---cardCreation
+17:03:01  INFO  tests.TestBase - ****************************************************************************************
